@@ -1,158 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projects | Ivan Dochev</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo"><a href="index.html">Ivan Dochev</a></div>
-        <ul>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#projects">Projects</a></li>
-          <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section id="initiate" class="project-section">
-      <div class="project-header container">
-        <h2>Initiate</h2>
-        <p>A B2B AI marketplace connecting enterprises with AI vendors.</p>
-        <div class="tech-list">
-          <span class="skill">Next.js</span>
-          <span class="skill">Hono.js</span>
-          <span class="skill">Tailwind CSS</span>
-          <span class="skill">PostgreSQL</span>
-          <span class="skill">Prisma ORM</span>
-        </div>
-      </div>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Projects | Ivan Dochev</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
       <div class="container">
-        <div class="project-writeup">
-          <h3>Project Write-up</h3>
-          <p>
-            As the solutions architect for Initiate, a B2B AI marketplace, I designed the system architecture and tech stack. I also developed the real-time messaging feature using Next.js for the frontend and Hono.js for the backend, with PostgreSQL and Prisma ORM for the database.
-          </p>
-        </div>
-
-        <h3>Process</h3>
-        <div class="process">
-          <div class="step">
-            <img src="media/wireframe.png" alt="Wireframe layout">
-            <div class="description">
-              <h4>Step 1: Wireframing</h4>
-              <p>The initial phase of the project involved creating a comprehensive wireframe using Figma. This allowed us to establish a clear visual hierarchy and user flow, ensuring an intuitive experience for both SMEs and AI vendors. The wireframe focused on creating a clean and modern interface, with easy navigation and clear calls-to-action. This foundational step was crucial in aligning our team on the product's vision and functionality before moving into development.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <img src="media/backend.png" alt="Backend setup screenshot">
-            <div class="description">
-              <h4>Step 2: Backend & API</h4>
-              <p>Once the wireframe was done, we moved on to developing the database, using Prisma as the ORM for the job. I also developed the backend APIs for the messaging feature, implementing CRUD operations. This was initially done using a basic RESTful approach, and later migrated to WebSockets to enable real-time communication, significantly enhancing the user experience.</p>
-            </div>
-          </div>
-
-          <div class="step">
-            <img src="media/backend.png" alt="Backend setup screenshot">
-            <div class="description">
-              <h4>Step 3: Frontend Development & Integration</h4>
-              <p>With the backend APIs in place, the focus shifted to developing the frontend using Next.js. A key aspect was meticulously following the Figma wireframes to ensure the user interface was intuitive and visually appealing. I utilized shadcn/ui as the UI library, aiming for a modern yet clean aesthetic, particularly for the real-time messaging components. This involved integrating the frontend with the backend APIs, ensuring seamless data flow and real-time communication for the messaging feature, providing a robust and responsive user experience.</p>
-            </div>
-          </div>
-        </div>
-
-        <h3>Gallery</h3>
-        <div class="gallery">
-          <img src="media/initiate.png" alt="Dashboard view">
-          <img src="media/initiate.png" alt="Vendor listing">
-          <img src="media/initiate.png" alt="Analytics chart">
-        </div>
-
-        <div class="key-learnings">
-            <h3>Key Learnings</h3>
-            <ul>
-                <li>Optimized Prisma queries for large datasets.</li>
-                <li>Improved SSR performance by code-splitting dynamic imports.</li>
-                <li>Gained experience designing B2B user experiences.</li>
-            </ul>
-        </div>
+        <nav>
+          <div class="logo"><a href="index.html">Ivan Dochev</a></div>
+          <ul>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section id="pokemon" class="project-section">
+    <main>
+      <section id="pokemon" class="project-section">
         <div class="project-header container">
           <h2>Pokemon Pocket</h2>
           <p>A small console-based game originally made for school, but further improved on my own</p>
           <div class="tech-list">
             <span class="skill">C#</span>
+            <span class="skill">.NET</span>
             <span class="skill">EntityFramework</span>
             <span class="skill">Spectre.Console</span>
           </div>
         </div>
-  
+
         <div class="container">
           <div class="project-writeup">
             <h3>Project Write-up</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            A small console-based game originally developed as a school project, but further improved from then on
             </p>
           </div>
 
           <h3>Process</h3>
           <div class="process">
             <div class="step">
-              <img src="media/pokemon.png" alt="Wireframe layout">
+              <img src="media/pokemon/pokemonDb.png" alt="EntityFramework Database Context">
               <div class="description">
-                <h4>Step 1: Game Logic</h4>
-                <p>Implemented the core game logic for capturing, battling, and training Pokemon.</p>
+                <h4>Step 1: Database</h4>
+                <p>The first thing I did was to design all the models for the items I will be storing on the database. Since I was developing a game, it involved creating models for Pokemon, moves, and trainers. This was a crucial step to ensure that the game's data was well-structured and could be easily accessed and manipulated.
+                Once that was done, the final step was configuring to work with Microsoft's EntityFramework.
+                </p>
               </div>
             </div>
             <div class="step">
-              <img src="media/pokemon.png" alt="Backend setup screenshot">
+              <img src="media/pokemon/readPokemon.png" alt="Wireframe layout">
               <div class="description">
-                <h4>Step 2: Database</h4>
-                <p>Used Entity Framework to store and manage player data, including their Pokemon collection.</p>
+                <h4>Step 2: Game Logic</h4>
+                <p>
+                Following the database setup, I implemented the core gameplay loop based on the school assignment's requirements. This included a command-line menu for players to add, list, and evolve their Pokemon. I developed the logic for adding new Pokemon, and listing all caught Pokemon sorted by EXP. The most interesting part was the 'Update' operation — the evolution system. I wrote the logic to check which Pokemon were eligible to evolve based on the number of same-type creatures collected, and then updated their stats. Additionally, I implemented a "calculateDamage()" method for each Pokemon subclass, incorporating unique damage multipliers for characters like Pikachu and Eevee, which formed the basis of the combat mechanics.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <img src="media/pokemon/fightingPokemon.png" alt="Wireframe layout">
+              <div class="description">
+                <h4>Step 3: Fighting System</h4>
+                <p>
+                After submitting the project, I decided I want to make it more like a proper game (rather than just a small tool where you type in words and get feedback), so I began work on 
+                my combat system. This involved creating a Pokemon factory for random Pokemon generation, which allowed for the ability to add a fight-and-catch system to add more interactivity
+                to the project. The success rate of catching a wild pokemon is the same as the percentage of health gone, so for example a pokemon at 100hp when its max is 300hp will have a 67% chance to be caught
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <img src="media/pokemon/spectreMenu.png" alt="Spectre.Console UI">
+              <div class="description">
+                <h4>Step 4: Spectre.Console UI Overhaul</h4>
+                <p>
+                With the core gameplay mechanics in place, I decided to do a complete UI overhaul using Spectre.Console. This was going to replace the basic console output with a more visually appealing and interactive interface, featuring rich components like tables and colorful text. The goal was to create a more engaging and user-friendly experience, moving beyond a simple command-line tool to a polished console application.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <img src="media/pokemon/gymFight.png" alt="Wireframe layout">
+              <div class="description">
+                <h4>Step 5: Gym System</h4>
+                <p>
+                To add more challenge and progression, I finally a gym system. This featured a series of gyms, each with a powerful Gym Leader that players can battle. Defeating a Gym Leader awards the player with a badge and 300 gold, providing a clear sense of accomplishment and a long-term goal for players to strive for. Additionally, while implementing this feature I added a small "Gene-splicing" feature, where players can take two of their pre-existing Pokemon and create a new, much stronger Pokemon which is a combination of the two
+                </p>
               </div>
             </div>
           </div>
-  
+
           <h3>Gallery</h3>
           <div class="gallery">
-            <img src="media/pokemon.png" alt="Main Menu">
-            <img src="media/pokemon.png" alt="Battle Screen">
-            <img src="media/pokemon.png" alt="Pokemon Collection">
+            <img src="media/pokemon/pokemonDb.png" alt="Main Menu">
+            <img src="media/pokemon/readPokemon.png" alt="Battle Screen">
+            <img src="media/pokemon/fightingPokemon.png" alt="Pokemon Collection">
+            <img src="media/pokemon/spectreMenu.png" alt="Pokemon Collection">
+            <img src="media/pokemon/gymFight.png" alt="Pokemon Collection">
+            <img src="media/pokemon/badgeMenu.png" alt="Pokemon Collection">
+            <img src="media/pokemon/nextFightPokemon.png" alt="Pokemon Collection">
+            <img src="media/pokemon/spectreFighting.png" alt="Pokemon Collection">
+            <img src="media/pokemon/spliceOptions.png" alt="Pokemon Collection">
+            <img src="media/pokemon/viewGyms.png" alt="Pokemon Collection">
           </div>
-  
+
           <div class="key-learnings">
-              <h3>Key Learnings</h3>
-              <ul>
-                  <li>Learned how to use Spectre.Console to create beautiful console applications.</li>
-                  <li>Gained experience with Entity Framework and database design.</li>
-                  <li>Improved my understanding of object-oriented programming principles.</li>
-              </ul>
+            <h3>Key Learnings</h3>
+            <ul>
+              <li>Learned how to use Spectre.Console to create beautiful console applications.</li>
+              <li>Gained experience with Entity Framework and database design.</li>
+              <li>Improved my understanding of object-oriented programming principles.</li>
+            </ul>
           </div>
         </div>
       </section>
-  </main>
+      <section id="initiate" class="project-section">
+        <div class="project-header container">
+          <h2>Initiate</h2>
+          <p>A B2B AI marketplace connecting enterprises with AI vendors.</p>
+          <div class="tech-list">
+            <span class="skill">Next.js</span>
+            <span class="skill">Hono.js</span>
+            <span class="skill">Tailwind CSS</span>
+            <span class="skill">PostgreSQL</span>
+            <span class="skill">Prisma ORM</span>
+          </div>
+        </div>
 
-  <footer>
-    <div class="container">
-      &copy; 2025 Ivan Dochev. All rights reserved.
+        <div class="container">
+          <div class="project-writeup">
+            <h3>Project Write-up</h3>
+            <p>
+            As the solutions architect for Initiate, a B2B AI marketplace, I designed the system architecture and tech stack. Additonally, I developed both the frontend and backend for the product's messaging system, enabling real-time messaging between the SMEs and AI vendors.
+            </p>
+          </div>
+
+          <h3>Process</h3>
+          <div class="process">
+            <div class="step">
+              <img src="media/wireframe.png" alt="Wireframe layout">
+              <div class="description">
+                <h4>Step 1: Wireframing</h4>
+                <p>The initial phase of the project involved creating a comprehensive wireframe using Figma. This allowed us to establish a clear visual hierarchy and user flow, ensuring an intuitive experience for both SMEs and AI vendors. The wireframe focused on creating a clean and modern interface, with easy navigation and clear calls-to-action. This foundational step was crucial in aligning our team on the product's vision and functionality before moving into development.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <img src="media/backend.png" alt="Backend setup screenshot">
+              <div class="description">
+                <h4>Step 2: Backend & API</h4>
+                <p>Once the wireframe was done, we moved on to developing the database, using Prisma as the ORM for the job. I also developed the backend APIs for the messaging feature, implementing CRUD operations. This was initially done using a basic RESTful approach, and later migrated to WebSockets to enable real-time communication, significantly enhancing the user experience.</p>
+              </div>
+            </div>
+
+            <div class="step">
+              <img src="media/messaging-ui.png" alt="Backend setup screenshot">
+              <div class="description">
+                <h4>Step 3: Frontend Development & Integration</h4>
+                <p>With the backend APIs in place, the focus shifted to developing the frontend using Next.js. A key aspect was meticulously following the Figma wireframes 
+                to ensure the user interface was intuitive and visually appealing. I utilized shadcn/ui as the UI library, aiming for a modern yet clean aesthetic, 
+                particularly for the real-time messaging components. This involved integrating the frontend with the backend APIs, ensuring seamless data flow and real-time
+                communication for the messaging feature, providing a robust and responsive user experience.</p>
+              </div>
+            </div>
+          </div>
+
+          <h3>Gallery</h3>
+          <div class="gallery">
+            <img src="media/wireframe.png" alt="Vendor listing">
+            <img src="media/backend.png" alt="Backend setup">
+            <img src="media/homepage.png" alt="Initiate Homepage">
+            <img src="media/messaging-ui.png" alt="Messaging UI">
+          </div>
+
+          <div class="key-learnings">
+            <h3>Key Learnings</h3>
+            <ul>
+              <li>Using React (via Next.js) to deveolp mobile-responsive UIs</li>
+              <li>Improved SSR performance by code-splitting dynamic imports.</li>
+              <li>Developing RESTful APIs</li>
+              <li>Gained experience designing B2B user experiences.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="advent-of-code" class="project-section">
+        <div class="project-header container">
+          <h2>Advent of Code 2024</h2>
+          <p>A christmas-themed set of algorithmic puzzles with increasing difficulty</p>
+          <div class="tech-list">
+            <span class="skill">Python</span>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="project-writeup">
+            <h3>Project Write-up</h3>
+            <p>
+            Advent of Code is an online event that provides a series of programming challenges designed to test problem-solving and algorithmic thinking. 
+            In 2024, I decided to join the event to test my knowledge to the limits. I ended up doing the first 12 challenges, landing me among 10% of all competitors
+            </p>
+          </div>
+
+          <h3>Process</h3>
+          <div class="process">
+            <div class="step">
+              <img src="media/aocNotebook.jpg" alt="Advent of Code puzzle description">
+              <div class="description">
+                <h4>Step 1: Problem Deconstruction</h4>
+                <p>Each Advent of Code puzzle presents a unique challenge. My first step was always to thoroughly deconstruct the problem statement, identify the core requirements, and analyze the provided examples. For more complex puzzles, I would use pen and paper or a whiteboard to visualize the problem, map out data structures, and brainstorm potential algorithms before writing any code. This helped in breaking down the problem into smaller, manageable parts.</p>
+              </div>
+            </div>
+            <div class="step">
+              <img src="media/aocDay10.png" alt="Python code for a puzzle solution">
+              <div class="description">
+                <h4>Step 2: Algorithmic Implementation</h4>
+                <p>Once I had a solid plan, I moved on to implementation using Python. The focus was on writing clean, efficient, and readable code to solve the puzzle. This often involved implementing specific algorithms (like pathfinding or graph traversal) and using appropriate data structures. After getting a correct answer for the first part of the puzzle, I would then refactor and adapt my solution for the second part, which often introduced new constraints or a larger scale, testing the limits of the initial approach.</p>
+              </div>
+            </div>
+          </div>
+
+          <h3>Gallery</h3>
+          <div class="gallery">
+            <img src="media/aocNotebook.jpg" alt="Notebook where I would deconstruct each problem">
+            <img src="media/aocDay10.png" alt="Notebook where I would deconstruct each problem">
+            <img src="media/aocDay7.png" alt="Notebook where I would deconstruct each problem">
+          </div>
+
+          <div class="key-learnings">
+            <h3>Key Learnings</h3>
+            <ul>
+              <li>Sharpened my problem-solving and algorithmic thinking skills under pressure.</li>
+              <li>Gained proficiency in implementing complex algorithms and data structures in Python.</li>
+              <li>Learned the importance of code optimization for performance-critical tasks.</li>
+              <li>Developed a systematic approach to deconstructing and solving complex programming challenges/issues.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer>
+      <div class="container">
+        &copy; 2025 Ivan Dochev. All rights reserved.
+      </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+      <span class="close-button">&times;</span>
+      <img class="lightbox-content" id="lightbox-img">
     </div>
-  </footer>
 
-  <script src="scripts.js"></script>
-</body>
+    <script src="scripts.js"></script>
+  </body>
 </html>

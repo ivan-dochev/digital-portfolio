@@ -54,3 +54,34 @@ window.addEventListener('scroll', reveal);
 document.querySelectorAll('section > div').forEach(el => {
     el.classList.add('reveal');
 });
+
+// Lightbox functionality
+document.addEventListener('DOMContentLoaded', () => {
+  const galleryImages = document.querySelectorAll('.gallery img');
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const closeButton = document.querySelector('.close-button');
+
+  galleryImages.forEach(image => {
+    image.addEventListener('click', () => {
+      lightbox.style.display = 'block';
+      lightboxImg.src = image.src;
+    });
+  });
+
+  closeButton.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+  });
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) {
+      lightbox.style.display = 'none';
+    }
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      lightbox.style.display = 'none';
+    }
+  });
+});
